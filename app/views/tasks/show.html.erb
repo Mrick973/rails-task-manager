@@ -1,0 +1,14 @@
+<h1>Infos <%= @task.title %></h1>
+
+<ul>
+  <li>details: <%= @task.details %></li>
+</ul>
+
+<!--  -->
+
+<!-- <a href="/tasks">Retour</a> -->
+
+
+<%= link_to 'Retour', tasks_path(@tasks) %>
+<%= link_to 'Edit', edit_task_path %>
+<!-- <a href="/edit">Editer</a> -->
